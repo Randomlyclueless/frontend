@@ -1,0 +1,89 @@
+/* Global Page Styling */
+
+body {
+  background-color: white;
+  /* Simple white background */
+  color: black;
+  /* Main text in black */
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  /* Clean font */
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  /* Card-like white container */
+  padding: 30px;
+  border: 1px solid lightgray;
+  /* Subtle gray border */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Slight shadow */
+}
+
+h2 {
+  color: black;
+  /* Main header in bold black */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  color: gray;
+  /* Soft gray for form labels */
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  /* Light gray input background */
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+  /* Black focus outline */
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  /* Slightly lighter shade on hover */
+}
+
+.text-link {
+  color: black;
+  text-decoration: none;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+  /* Underline link on hover */
+}
+
+p {
+  color: gray;
+  /* Gray for small text */
+}
+
+.text-center {
+  text-align: center;
+}
